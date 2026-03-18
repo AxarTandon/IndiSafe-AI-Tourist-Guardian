@@ -1,12 +1,13 @@
 #  IndiSafe — AI Tourist Guardian
 
-##  Hackathon Project
+##  Demo Tourist Safety Project
 
-IndiSafe is an AI-powered predictive safety system designed to protect tourists in real time.
+IndiSafe is an AI-powered predictive safety system designed to protect tourists in real time which can be used Internationally.
 
 ---
 ## Live Demo
 https://indisafe-ai-tourist-guardian.streamlit.app
+just use this link to see demo app
 -------
 ##  Features
 
