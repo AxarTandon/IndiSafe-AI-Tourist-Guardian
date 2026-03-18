@@ -14,7 +14,7 @@ just use this link to see demo app
 - Live tracking map
 - Crime risk zones
 - Real-time safety status
-- IndiAI smart assistant
+- IndiAI smart assistant(CHATBOT ..IMP)
 - Multi-language support
 - Nearby hospital & police info
 - SOS emergency system
