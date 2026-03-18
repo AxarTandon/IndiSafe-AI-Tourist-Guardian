@@ -1,27 +1,27 @@
-# 🛡️ IndiSafe — AI Tourist Guardian
+#  IndiSafe — AI Tourist Guardian
 
-## 🚀 Hackathon Project
+##  Hackathon Project
 
 IndiSafe is an AI-powered predictive safety system designed to protect tourists in real time.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🗺️ Live tracking map
-- 🔥 Crime risk zones
-- 🚦 Real-time safety status
-- 🤖 IndiAI smart assistant
-- 🌍 Multi-language support
-- 🏥 Nearby hospital & police info
-- 🚨 SOS emergency system
-- 📞 Fake call safety feature
-- 👨‍👩‍👧 Companion tracking
-- 🔮 Predictive danger alerts
+- Live tracking map
+- Crime risk zones
+- Real-time safety status
+- IndiAI smart assistant
+- Multi-language support
+- Nearby hospital & police info
+- SOS emergency system
+- Fake call safety feature
+- Companion tracking
+- Predictive danger alerts
 
 ---
 
-## 🏃‍♂️ How to Run
+##  How to Run
 
 Install dependencies:
 
