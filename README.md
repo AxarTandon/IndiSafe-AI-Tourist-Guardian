@@ -5,7 +5,9 @@
 IndiSafe is an AI-powered predictive safety system designed to protect tourists in real time.
 
 ---
-
+## Live Demo
+https://indisafe-ai-tourist-guardian.streamlit.app
+-------
 ##  Features
 
 - Live tracking map
