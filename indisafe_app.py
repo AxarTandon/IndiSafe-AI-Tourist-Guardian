@@ -100,11 +100,12 @@ st.sidebar.markdown("### 👥 Team Prefer_Not_To_Say")
 st.sidebar.markdown("""
 Team Lead and Full-Stack Developer-(AXAR TANDON)
 
-Buisness Strategist and Pitch deck lead -(HIMANSHU BHARDWAJ)
+Product Concept and Data Analyst- (AKSHITA SINGH)
 
-Research Operations and Data Analyst- (SAMEER AKHTAR)
+Buisness Strategist -(HIMANSHU BHARDWAJ)
 
-Product Concept and Creative Designer- (AKSHITA SINGH)
+Research Operations- (SAMEER AKHTAR)
+
 """)
 
 # =============================
