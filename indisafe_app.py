@@ -5,6 +5,65 @@ import random
 from datetime import datetime
 from math import radians, cos, sin, asin, sqrt
 from deep_translator import GoogleTranslator
+# =========================================================
+# ⚙️ PAGE CONFIG
+# =========================================================
+st.set_page_config(page_title="IndiSafe 🛡️", layout="wide")
+
+# =========================================================
+# 🔐 SESSION STATE
+# =========================================================
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if "tourist_id" not in st.session_state:
+    st.session_state.tourist_id = "IND-" + str(random.randint(1000, 9999))
+
+
+# =========================================================
+# 🔐 LOGIN / SIGNUP PAGE (ONLY THIS SHOWS FIRST)
+# =========================================================
+if not st.session_state.logged_in:
+
+    st.markdown(
+        "<h1 style='text-align:center;'>🛡️ IndiSafe</h1>",
+        unsafe_allow_html=True
+    )
+    st.markdown(
+        "<p style='text-align:center;'>AI Tourist Guardian System</p>",
+        unsafe_allow_html=True
+    )
+
+    option = st.radio("Select Option", ["Login", "Sign Up"], horizontal=True)
+
+    name = st.text_input("👤 Full Name")
+    email = st.text_input("📧 Email")
+    password = st.text_input("🔒 Password", type="password")
+
+    if option == "Sign Up":
+        country = st.text_input("🌍 Country")
+        phone = st.text_input("📱 Phone Number")
+
+        if st.button("🚀 Create Account"):
+            if name and email and password:
+                st.success("Account created successfully!")
+                st.session_state.logged_in = True
+                st.rerun()
+            else:
+                st.error("Please fill all fields")
+
+    else:
+        if st.button("🔓 Login"):
+            if email and password:
+                st.success("Login successful!")
+                st.session_state.logged_in = True
+                st.rerun()
+            else:
+                st.error("Enter email & password")
+
+    # 🚫 STOP HERE — DO NOT SHOW DASHBOARD
+    st.stop()
+
 
 st.set_page_config(page_title="IndiSafe CHAMPION", layout="wide")
 
