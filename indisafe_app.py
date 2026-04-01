@@ -98,13 +98,13 @@ st.markdown("""
 
 st.sidebar.markdown("### 👥 Team Prefer_Not_To_Say")
 st.sidebar.markdown("""
-Team Lead and Full-Stack Developer-(AXAR TANDON)
+Full-Stack Developer-(AXAR TANDON)
 
 Product Concept and Data Analyst- (AKSHITA SINGH)
 
-Buisness Strategist -(HIMANSHU BHARDWAJ)
+Buisness Strategist -(ANMOL BATRA)
 
-Research Operations- (SAMEER AKHTAR)
+UI-UX DESIGNER- (ADITYA VEER KUMAR)
 
 """)
 
